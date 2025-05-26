@@ -6,7 +6,7 @@ import Pill from "./Pill";
 
 const Card: React.FC = () => {
   return (
-    <div className="h-[422px] w-[378.56px] cursor-pointer hover:shadow-md hover:rounded-lg">
+    <div className="h-[422px] w-[378.56px] cursor-pointer hover:shadow-md hover:rounded-lg mb-4">
       <Image
         className="rounded-lg"
         src={HOUSE_IMAGE}
@@ -35,7 +35,7 @@ const Card: React.FC = () => {
       </div>
 
       <div className="flex justify-between mt-4">
-        <div className=" grid grid-cols-3 border w-[156px] rounded-full px-2 py-1">
+        <div className=" grid grid-cols-3 border w-[156px] rounded-full px-2 py-1 ">
           <div className="flex items-center">
             <svg
               width="21"
